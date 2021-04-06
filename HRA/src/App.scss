@@ -1,0 +1,193 @@
+
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  //background-image: linear-gradient(165deg, #e9f5f1 0, #e9f5f1 33%, #e9f5f1 66%, #617ba3 100%);
+}
+.well-lg{
+  height: 80px;
+}
+.text-gray{
+  color: #8c8484;
+}
+
+.text-red{
+  color: #f21818;
+}
+
+.background-orange{
+  background-color: #f7972f;
+}
+
+.card-btn{
+  width: 150px;
+  height: 55px;
+  box-shadow: 2px 5px 20px 5px darken(#fffafa, 5%);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.approve-btn{
+  background-color: #18f22e;
+  width: 150px;
+  height: 55px;
+  box-shadow: 2px 5px 20px 5px darken(#fffafa, 5%);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reject-btn{
+  background-color: #f21818;
+  width: 150px;
+  height: 55px;
+  box-shadow: 2px 5px 20px 5px darken(#fffafa, 5%);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-btn{
+  background-color: #f2b118;
+  width: 150px;
+  height: 55px;
+  box-shadow: 2px 5px 20px 5px darken(#fffafa, 5%);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.create-btn{
+  background-color: #916b10;
+  width: 150px;
+  height: 55px;
+  box-shadow: 2px 5px 20px 5px darken(#fffafa, 5%);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar{
+  height: 100px;
+  font-size: 20px;
+  padding:20px 20px;
+  display: block;
+  text-align: center;
+  background-color: #00009e;
+}
+
+.card {
+  width:2000px;
+  height: 300px;
+  //display: block;
+  //margin: 60px auto;
+  box-shadow: 5px 2px 2px 2px darken(#fffafa, 100%);
+  transition: .25s;
+  }
+
+
+
+
+.testt{
+  max-width: 940px;
+}
+
+.test{
+  height: 600px;
+  width: 1200px;
+}
+.chat-panel{
+  height: 500px;
+  width: 470px;
+}
+
+.chat-heading{
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+.img-fluid{
+  height: 300px;
+  width: 300px;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+
+.body-content {
+  padding-bottom: 40px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.button-primary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color:transparent;
+  font-size: 15px;
+  transition:.25s;
+
+  i{
+    padding-right:4px;
+  }
+}
+
+
+.designer-link {
+  color:#fff;
+  text-align:center;
+  fon-size: 12px;
+  text-decoration: none;
+  display:block;
+}
+
+.top-5{
+  padding-top: 30px;
+}
+
+.top-10{
+  padding-top: 50px;
+}
+
+.top-20{
+  padding-top: 70px;
+}
+
+.top-25{
+  padding-top: 90px;
+}
+
+.f-end{
+  flex: end;
+}
+
+
+  .mobile-only {
+    @media (min-width: 768px){
+      display: none;
+    }
+  }
+  .desktop-only {
+    @media (max-width: 767px){
+      display: none;
+    }
+  }
+
+
+

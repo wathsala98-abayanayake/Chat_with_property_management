@@ -1,0 +1,320 @@
+.login {
+
+  //background-image: linear-gradient(132deg, #14134e 0, #512d5a 56%, #843b61 81%, #c16858 100%);
+  //background-image: linear-gradient(165deg, #192077 0, #733bbf 33%, #ab57ea 66%, #e131dc 100%);
+  //background-image: linear-gradient(165deg, #04ef95 0, #23efa1 33%, #4bf2b2 66%, #8fefca 100%);
+  //background-image: linear-gradient(165deg, #4185f2 0, #4e7bc4 33%, #5f81b7 66%, #617ba3 100%);
+  background-image: linear-gradient(165deg, #e9f5f1 0, #e9f5f1 33%, #e9f5f1 66%, #617ba3 100%);
+  min-height: 100vh;
+
+
+  .main-title {
+
+    font-size: 9.0vw;
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-family: raleway;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+
+  }
+
+  .motto {
+
+    font-size: 1.9vw;
+    color: #fff;
+    padding-left: 15%;
+    padding-bottom: 0px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+  }
+  .login-padSignUp {
+    margin-top: 20%;
+    margin-left: 10%;
+    padding: 25px;
+    border-top: 0px solid #192077;
+    border-radius: 50px;
+
+    color: #192077;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    min-height: 250px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+
+    //box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .login-pad {
+    margin-top: 40%;
+    margin-left: 10%;
+    padding: 25px;
+    border-top: 0px solid #192077;
+    border-radius: 50px;
+
+    color: #192077;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    min-height: 250px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+
+    //box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .footer {
+    //background: #888;
+    color: #fff;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .login-btn {
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    width: 100%;
+    max-width: 200px;
+    min-width: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px;
+    background: transparent;
+    border: solid #333 1px;
+    text-decoration: none;
+    -webkit-transition: background 0.2s, color 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .login-btn:hover {
+    background: #4FC884;
+    border-color: #3c9c68;
+
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .login-btn:focus {
+
+    outline: none;
+  }
+
+
+  .group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  input {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 10px 5px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border: 1px solid #757575;
+    background: transparent;
+    color: #000;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .panel-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  /* LABEL ======================================= */
+  .label1 {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+
+  label {
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  /* active state */
+  input:focus ~ .label1, input:valid ~ .label1 {
+    top: -10px;
+    font-size: 14px;
+    color: #2196F3;
+  }
+
+  /* BOTTOM BARS ================================= */
+  .bar {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+  .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 5px;
+    position: absolute;
+    background: #2196F3;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+
+  .bar:before {
+    left: 50%;
+  }
+
+  .bar:after {
+    right: 50%;
+  }
+
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width: 50%;
+    bottom: 0px;
+  }
+
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  /* active state */
+  input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+  }
+
+  .link:hover {
+    cursor: pointer;
+    color: #00009e;
+  }
+.pad{
+  padding-left: 70px;
+  padding-top: 20px;
+}
+  @media only screen and (max-width: 425px) {
+    /* For mobile: */
+    .login-pad {
+      margin-top: 40%;
+    }
+    .main-title {
+      padding-top: 10%;
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      -ms-transform: scale(0, 0); /* IE 9 */
+      -webkit-transform: scale(0, 0); /* Safari */
+      transform: scale(0, 0); /* Standard syntax */
+    }
+    to {
+      -ms-transform: scale(1, 1); /* IE 9 */
+      -webkit-transform: scale(1, 1); /* Safari */
+      transform: scale(1, 1); /* Standard syntax */
+    }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from {
+      -ms-transform: scale(0, 0); /* IE 9 */
+      -webkit-transform: scale(0, 0); /* Safari */
+      transform: scale(0, 0); /* Standard syntax */
+    }
+    to {
+      -ms-transform: scale(1, 1); /* IE 9 */
+      -webkit-transform: scale(1, 1); /* Safari */
+      transform: scale(1, 1); /* Standard syntax */
+    }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from {
+      -ms-transform: scale(0, 0); /* IE 9 */
+      -webkit-transform: scale(0, 0); /* Safari */
+      transform: scale(0, 0); /* Standard syntax */
+    }
+    to {
+      -ms-transform: scale(1, 1); /* IE 9 */
+      -webkit-transform: scale(1, 1); /* Safari */
+      transform: scale(1, 1); /* Standard syntax */
+    }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from {
+      -ms-transform: scale(0, 0); /* IE 9 */
+      -webkit-transform: scale(0, 0); /* Safari */
+      transform: scale(0, 0); /* Standard syntax */
+    }
+    to {
+      -ms-transform: scale(1, 1); /* IE 9 */
+      -webkit-transform: scale(1, 1); /* Safari */
+      transform: scale(1, 1); /* Standard syntax */
+    }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from {
+      -ms-transform: scale(0, 0); /* IE 9 */
+      -webkit-transform: scale(0, 0); /* Safari */
+      transform: scale(0, 0); /* Standard syntax */
+    }
+    to {
+      -ms-transform: scale(1, 1); /* IE 9 */
+      -webkit-transform: scale(1, 1); /* Safari */
+      transform: scale(1, 1); /* Standard syntax */
+    }
+  }
+}
+
+
+
+
+
+
+
+
